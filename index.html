@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title id="bicara">FAYSAL RAHMAN</title>
+</head>
+
+<body>
+  <section class="content" id="nana">
+    <header>
+      <h2>FAYSAL RAHMAN</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="video.mp4" autoplay loop muted></video>
+    <div class="backdrop"></div>
+    <div class="sajak">
+      <h2>tentang</h2>
+      <h3 id="rain">Hujan</h3>
+      <p class="pp">Bayu menyapa bawa awan nan sarat, <br>Titis hujan menjurai ke bumi, <br>Titisan kecil bisa
+        mengganas, <br>Menghambur dari langit yang berat, <br>Badai, petir saling bertingkah, <br>Mengejutkan penghuni
+        alam, <br>Yang takut sembunyilah dalam selimut, <br>Begitu beri petanda, <br>Pada penghuni alam <br>...
+        Terpulanglah</p>
+      <!-- <p>sertai sekarang</p> -->
+      <p class="pp">Lorem ipsum dolor sit, <br>amet consectetur adipisicing elit. <br>Esse cupiditate eaque at nam,
+        <br>earum assumenda voluptatibus quas veniam labore temporibus.</p>
+      <p class="pp">Sayembara Puisi Kebangsaan</p>
+      <a href="#">sertai sekarang</a>
+    </div>
+
+    <ul class="pautan">
+      <li><a href=""><img src="https://i.ibb.co/42J79PL/Instagram.png"></a></li>
+      <li><a href=""><img src="https://i.ibb.co/1m6vNCx/Bawang.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/KLBs6H5/Twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/sRh8xmQ/Facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/JKPY05b/Pinterest.png"></a></li>
+      <li><a href=""><img src="https://i.ibb.co/JyR3DmD/Email.png"></a></li>
+      <li><a href=""><img src="https://i.ibb.co/WvrvMtv/Whatsapp.png" alt=""></a></li>
+    </ul>
+  </section>
+  <script src="sekerip.js"></script>
+  <script>
+    // const heading2 = document.querySelectorAll('h2');
+    // console.log(heading2);
+
+    // heading2[1].innerHTML = "Faysal";
+
+    // for (var j = 0; j < 2; j++) {
+    //   console.log(heading2[j]);
+    //   heading2[j].style.color = "red";
+    // }
+
+    // const x = document.querySelectorAll('h2');
+    // x[1].setAttribute("class", "about")
+    // console.log(x[1].setAttribute("class", "about"));
+    // x[1].setAttribute("class", "Anotherabout")
+
+
+
+    // const x = document.querySelectorAll('h2');
+
+    // x[1].classList.add("togel");
+    const lastPoem = document.createElement('p');
+    const textPoem = document.createTextNode('Faysal Rahman');
+    lastPoem.append(textPoem);
+
+    const sajak = document.querySelector('.sajak');
+    sajak.appendChild(lastPoem);
+
+
+    const lastAnchorTag = document.createElement('a');
+    const textAnchorTag = document.createTextNode('Faysal Rahman');
+    lastAnchorTag.append(textAnchorTag);
+
+    const sajak = document.querySelector('.pautan');
+    pautan.appendChild(lastAnchorTag);
+
+    document.querySelector('.sajak').insertBefore(lastPoem, document.querySelector('.sajak a'));
+  </script>
+
+  <script>
+    // alert('hello');
+
+    // ELEMENT MANIPULATION
+
+    const heading2 = document.querySelectorAll('h2');
+    console.log(heading2);
+
+    heading2[1].innerHTML = "selapas";
+
+    for (var i = 0; i < 2; i++) {
+      heading2[i].style.color = "green";
+    }
+
+    // heading2[1].setAttribute('class', 'about');
+    heading2[1].classList.add('another-about');
+    heading2[1].classList.add('about');
+    heading2[1].classList += " about-lagi";
+    // heading2[1].classList.replace("about-lagi", "ooo");
+    // heading2[1].classList.toggle
+    heading2[1].classList.toggle('togel');
+
+    console.log(heading2[1].getAttribute('class'));
+
+    // NODE MANIPULATION
+    document.querySelector('.sajak').children[4].innerHTML = "<p class=''>Hiiii </p>";
+
+    const lastPoem = document.createElement('p');
+    const textPoem = document.createTextNode('inilah puisi terakhir');
+
+    lastPoem.append(textPoem);
+
+    // document.querySelector('.sajak').appendChild(lastPoem);
+
+    document.querySelector('.sajak').insertBefore(lastPoem, document.querySelector('.sajak a'));
+  </script>
+</body>
+
+</html>
+
+<script>
+  document.querySelector('.sajak').insertBefore(lastPoem, document.querySelector('.sajak a'));
+</script> document.querySelector('.sajak').insertBefore(lastPoem, document.querySelector('.sajak a'));
+
+</script>
